@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: #861657;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+
+.main-div {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
+.signup-div {
+    display: flex;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 80%;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 8px;
+    border-color: lightgray;
+    margin: 5px;
+}
+
+.button {
+    width: 240px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-color: blue;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.name{
+    display: flex;
+    width: 260px;
+}
+
+
+
+
+.container-div{
+    color: white;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around; 
+    font-family: sans-serif;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+
+.mg{
+    text-align: center;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    padding: 10px;
+    background-color: #e4b44f;
+    font-family: sans-serif;
+    
+}
+
+.size{
+    width: 200px;
+    text-align: start;
+    margin-left: 130px;
+    
+}
+
+
+
+label{
+    margin: 10px;
+    margin-left: 75px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    }
+
+
+
+.search{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #093E58;
+}
+
+
+.input-div{
+    padding: 15px;
+    background-color: #093E58;
+}
+
+
+.error{
+    font-family: sans-serif;
+    color: red;
+    font-size: small;
+    margin: 5px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.logout{
+    color: white;
+}
